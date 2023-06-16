@@ -12,6 +12,6 @@ class WebController {
     fun index(model: Model): String {
         model.addAttribute("registerDTO", RegisterDto())
         model.addAttribute("loginDTO", LoginDto())
-        return "index"
+        return "food"
     }
 }
